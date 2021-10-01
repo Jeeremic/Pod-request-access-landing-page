@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     justify-content: end;
     max-width: 1275px;
-    height: 640px;
+    min-height: 640px;
     flex: 1;
 }
 
@@ -151,7 +151,8 @@ footer img {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px), screen and (max-width: 800px) and 
+(orientation: landscape){
     .all {
         justify-content: unset;
     }
@@ -168,6 +169,7 @@ footer img {
         padding: 0;
         width: 100%;
         text-align: center;
+        padding-top: 280px;
     }
 
     h1 {
@@ -207,7 +209,7 @@ footer img {
     }
 
     .imgTop {
-        left: 165px;
+        left: 130px;
     }
 
 
@@ -221,5 +223,13 @@ footer img {
         position:static;
         width: 360px;
         height: 46px;
+    }
+}
+
+@media screen and (max-width: 800px) and 
+(orientation: landscape) {
+    .imgTop {
+        left: 250px;
+        top: 20px;
     }
 }

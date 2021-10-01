@@ -18,6 +18,6 @@ function oneClick(e) {
         msg2.innerHTML = 'Successful!';    
         setTimeout(() => msg2.remove(), 3000);
     }
-    return emailInput.value = '';
+    return;
 
 } 
