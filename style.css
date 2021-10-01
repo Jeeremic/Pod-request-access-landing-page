@@ -110,12 +110,21 @@ footer img {
     margin-right: 20px;
 }
 
+.msg {
+    visibility: hidden;
+}
+
+.msg2 {
+ visibility: hidden;
+}
+
 .error {
     color: #FB3E3E;
     padding: 5px;
     margin: 5px;
     font-family: "Chivo";
     font-weight: 700;
+    visibility: visible;
 }
 
 .goodMail {
@@ -124,6 +133,7 @@ footer img {
     margin: 5px;
     font-family: "Chivo";
     font-weight: 700;
+    visibility: visible;
 }
 
 @media screen and (max-width: 800px) {
